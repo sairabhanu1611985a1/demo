@@ -1,0 +1,143 @@
+.parent{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+.childone{
+  width:30;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+  box-shadow: 3px 3px 3px #ddd;
+  border-radius:20px;
+  background-color:yellow;
+}
+.childtwo{
+  width:65%;
+  padding:2%;
+  border:1px solid #ddd;
+  margin:2%;
+  box-shadow: 3px 3px 3px #ddd;
+  border-radius:20px;
+  background-color: skyblue;
+ }
+img{
+  width:40%;
+  heigh:40%;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+}
+/* for small screen mobiles */
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .childone{
+    width:95;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+    background-color:pink;
+  }
+  .childtwo{
+    width:95%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+    background-color:blue;
+
+   }
+
+}
+/* for tablets */
+@media only screen and (min-width:481px) and (max-width:768px){
+  .parent{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .childone{
+    width:95;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+    background-color:yellow;
+
+  }
+  .childtwo{
+    width:95%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+    background-color:lightgreen;
+   }
+
+h2{
+  text-align: center;
+}
+}
+/* for desktops */
+@media only screen and (min-width:769px) and (max-width:1024px){
+  .parent{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .childone{
+    width:50%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+   background-color:red;
+  }
+  .childtwo{
+    width:50%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+     background-color:black;
+   }
+
+}
+/* for lappy */
+@media only screen and (min-width:1025px) and (max-width:1550px){
+  .parent{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+  }
+  .childone{
+    width:50%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+     background-color:skyblue;
+  }
+  .childtwo{
+    width:50%;
+    padding:2%;
+    border:1px solid #ddd;
+    margin:2%;
+    box-shadow: 3px 3px 3px #ddd;
+    border-radius:20px;
+    background-color:white;
+   }
+
+}
