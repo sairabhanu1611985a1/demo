@@ -23,5 +23,23 @@
   "institute":" Bhashyam",
   "data":["2014","100%"]
 }
+],
+"skills":[
+  {
+    "title":"Languages",
+    "content":["C","Python","Java","c#","c++","PHP","R"]
+  },
+  {
+    "title":"DataBase",
+    "content":["SQL","MongoDB","Mysql","Oracle"]
+  },
+  {
+    "title":"web Technologies",
+    "content":["HTML","CSS","JavaScript"]
+  },
+  {
+    "title":"frameworks",
+    "content":["Django","CodeIgniter"]
+  }
 ]
 }
