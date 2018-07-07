@@ -3,5 +3,25 @@
     "name":"SK.SAIRA BHANU",
     "label":"student",
     "email":"sairabhanu965@gmail.com"
-  }
+  },
+  "career":{
+    "info":"“Respected human resources leader with more than 10 years’ experience overseeing operations, projects, and staff in healthcare organizations"
+  },
+  "education":[
+    {
+      "degree":"B-Tech(cse)",
+      "institute":"pvpsit",
+      "data":["2016-20","92%"]
+},
+{
+  "degree":"Intermediate(M.P.C)",
+  "institute":" Sri Chaitanya",
+  "data":["2014-16","96%"]
+},
+{
+  "degree":"S.S.C",
+  "institute":" Bhashyam",
+  "data":["2014","100%"]
+}
+]
 }
